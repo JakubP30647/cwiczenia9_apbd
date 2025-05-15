@@ -9,7 +9,7 @@ namespace Tutorial9.Services;
 public class wareHouseService : IwareHouseService
 {
     private readonly string _connectionString =
-        "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;";
+        "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=cw9;Integrated Security=True;";
 
 
     public async Task<int> add(WarehouseRequest warehouse)
